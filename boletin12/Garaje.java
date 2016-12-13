@@ -14,9 +14,9 @@ import java.time.LocalTime;
  */
 public class Garaje {
 
-    protected int numCoches;
-    protected String matricula[];
-    protected int tiempo[];
+    private static int numCoches;
+    private String matricula[];
+    private int tiempo[];
 
     public Garaje() {
         this.numCoches = 0;
